@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+
+<head>
+	<title>Minyon</title>
+</head>
+
+<body>
+
+<script src="js/injector.js"></script>
+
+	<div ng-controller="controllerA">
+		<h2>Application Message:</h2>
+		{{message}}
+	</div>
+		<hr>
+	<div ng-controller="controllerB">
+		<h2>Module Message:</h2>
+		{{message}}
+	</div>
+
+</body>
+
+</html>
