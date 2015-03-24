@@ -1,5 +1,5 @@
-angular.module('myTemp',[]).
-controller('SimpleTemplate',function($scope){
+angular.module('myTemp',[])
+.controller('SimpleTemplate',function($scope){
 	$scope.valueA = 5;
 	$scope.valueB = 7;
 	$scope.valueC = 12;

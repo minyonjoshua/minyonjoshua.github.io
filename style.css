@@ -5,17 +5,37 @@
 			
 body 		{ /* Loads the bodies style */
 			font-family: Tidy;
-			background-color: black;
-			color: white;
+			background-color: white;
+			color: black;
 			}
 			
 #header		{
-			font-family: Tidy;
-			background-color: white;
-			color: black;
-			font-size: 35px;
 			position: center;
-			display: block;
-			margin: 0px;
+			margin: 0px 100px;
 			text-align: center;
+			}
+#header a:hover { text-decoration: none; }
+			
+div			{
+			padding: 5px;
+			font-size: 1.1em;
+			text-align: center;
+			}
+			
+div a { text-decoration: none; }
+div a:link { color: black; }
+div a:visited { color: black; }
+div a:hover { text-decoration: underline; }			
+			
+input			{
+			text-align: center;
+			font-family: Tidy;
+			color: gray;
+			}
+			
+p      		{
+			position: left;
+			display: inline;
+			margin: 0px;
+			text-align: left;
 			}
