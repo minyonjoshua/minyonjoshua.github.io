@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="firstApp">
+
+<script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<head>
+<title>Minyon</title>
+</head>
+
+<body>
+
+	<div style= "font-size: 5em;" id="header">
+		<a href="index.html">MINYON</a>
+	</div>
+		<hr>
+	<div>
+		<nav style="word-spacing: 65px;">
+			<a href="injector.html">injector</a>
+			<a href="scope_template.html">scope</a>
+			<a href="scope_hierarchy.html">hierarchy</a>
+			<a href="scope_event.html">event</a>
+		</nav>
+	</div>
+		<hr>
+		<br>
+<script src="first.js"></script>
+
+	<div ng-controller="FirstController">
+		<span>Name:</span>
+		<input type="text" ng-model="first" placeholder="first name">
+		<input type="text" ng-model="last" placeholder="last name">
+		<button ng-click='updateMessage()'>Message</button>
+		<hr>
+		{{heading + message}}
+	</div>
+	
+</body>
+
+</html>
