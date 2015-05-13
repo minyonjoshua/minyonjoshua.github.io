@@ -3,3 +3,16 @@
 
 div { color: white;
 }
+
+.imgcontainer{
+	position: center;
+	max-width: 60%;
+}
+
+.images{
+	float: center;
+	height: 10em;
+	width: 15em;
+	margin-right: 1%;
+	margin-bottom: 0.5em;
+}

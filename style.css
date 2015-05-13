@@ -1,4 +1,4 @@
-@font-face	{ /* Load the new "chalk" font */
+@font-face	{ /* Load the new "Tidy" font */
 			font-family: Tidy;
 			src: url(Comfortaa_Regular.ttf);
 			}
@@ -10,6 +10,7 @@ body 		{ /* Loads the bodies style */
 			}
 			
 #header		{
+			font-size: 5em;
 			position: center;
 			margin: 0px 100px;
 			text-align: center;
@@ -38,4 +39,26 @@ p      		{
 			display: inline;
 			margin: 0px;
 			text-align: left;
+			}
+			
+div.imgcontainer{
+	margin: auto;
+	position: center;
+	max-width: 80%;
+	text-align: center;
+}
+
+div.imgcontainer img{
+	float: center;
+	height: auto;
+	width: auto;
+	max-width: 50%;
+	max-height: 14em;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+nav			{
+			word-spacing: 25px;
 			}
