@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="myTemp">
+
+<script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>	
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<head>
+	<title>Scopes and Templates</title>
+</head>
+
+<body>
+
+<script src="scope_template.js"></script>
+	
+	<div id="header">
+		<a href="index.html">MINYON.JS</a>
+	</div>
+		<hr>
+	<div>
+		<nav>
+			<a href="practice.html">back</a>
+		</nav>
+	</div>
+		<hr>
+		<br>
+	<div ng-controller="SimpleTemplate">
+		Value A: <input type="number" ng-model="valueA" />
+		<br>
+		Value B: <input type="number" ng-model="valueB" />
+		<br><br>
+		Expression Value: {{valueA + valueB}}
+		<br><br>
+		<input type="button" ng-click="addValues(valueA,valueB)"
+		value="Click to Add Values {{valueA}} & {{valueB}}" />
+		<br>
+		Clicked Value: {{valueC}}
+		<br>
+	</div>
+	
+</body>
+
+</html>
