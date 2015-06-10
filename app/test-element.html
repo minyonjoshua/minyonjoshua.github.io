@@ -1,0 +1,18 @@
+<div class="row" ng-show = "panel.isSelected(0)">
+	<div>
+		<img class="profile" src="img/profile.png"/>
+		<span><a href="https://www.github.com/minyonjoshua"/>GitHub</a></span>
+		<span class="name">JOSHUA MINYON</span>
+		<span><a href="https://www.linkedin.com/in/minyonjoshua"/>LinkedIn</a></span>
+		<hr class="main"></hr>
+		<span class="skills">Visual Artist - Front End Web Developer - Muralist</span>
+	</div>
+</div>
+	
+<div class="" ng-repeat="item in gallery.items" ng-show = "panel.isSelected($index+1)">
+
+	<div  class="imgcontainer thumbnail{{$index+1}}">
+			<a href ng-click=""><img class="" ng-repeat="image in item.imageUrl" ng-src="{{image}}"/></a>
+	</div>
+
+</div>

@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+	
+		<div class="navbar-header" ng-class="{ active: panel.isSelected(0)}">
+				<a class="navbar-brand" href ng-click="panel.selectTab(0)">MINYON.JS</a>
+		</div>
+		<div>
+			<ul class = "nav navbar-nav{{$index+1}}  navbar-right" ng-repeat="item in gallery.items">
+				<li ng-class = "{ active: panel.isSelected($index+1) }">
+				<a href ng-click = "panel.selectTab($index+1)">{{item.name}}</a></li>
+			</ul>
+		</div>
+
+	</div>
+</nav>
+
+
+
+
+<!--
+
+ng-repeat="item in gallery.items"
+
+<div class="imgcontainer" ng-repeat="image in item.imageUrl" ng-show="$last">
+				{{$index + 1}}.<img ng-src="{{image}}"/>
+</div>
+
+//-->

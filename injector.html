@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<head>
+	<title>Injector examples</title>
+</head>
+
+<body>
+
+<script src="injector.js"></script>
+
+	<div id="header">
+		<a href="index.html">MINYON.JS</a>
+	</div>
+		<hr>
+	<div>
+		<nav>
+			<a href="practice.html">back</a>
+		</nav>
+	</div>
+		<hr>
+		<br>
+	<div ng-controller="controllerA">
+		<h2>Application Message:</h2>
+		{{message}}
+	</div>
+		<hr>
+	<div ng-controller="controllerB">
+		<h2>Module Message:</h2>
+		{{message}}
+	</div>
+
+</body>
+
+</html>
