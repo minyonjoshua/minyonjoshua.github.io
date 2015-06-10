@@ -9,7 +9,7 @@ var test = angular.module('test',['test-directives']);
 		
 		gallery.items = [];
 		
-		$http.get('test.json').success(function(data){
+		$http.get('dist/test.json').success(function(data){
 			
 			gallery.items = data;
 			

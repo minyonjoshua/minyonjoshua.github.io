@@ -2,7 +2,7 @@
   "name": "muralPage",
   "version": "1.0.0",
   "description": "A page to show AngularJS",
-  "main": "app/index.html",
+  "main": "index.html",
   "scripts": {
     "prestart": "npm install",
     "start": "http-server -a 0.0.0.0 -p 8000",
