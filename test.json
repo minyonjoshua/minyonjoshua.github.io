@@ -2,57 +2,57 @@
 	{
 		"name": "JimBeam",
 		"description": "...",
-		"thumb": "img/beam16.jpg",
+		"thumb": "dist/img/beam16.jpg",
 		"imageUrl":[
-			"img/beam1.jpg",
-			"img/beam2.jpg",
-			"img/beam3.jpg",
-			"img/beam4.jpg",
-			"img/beam5.jpg",
-			"img/beam6.jpg",
-			"img/beam7.jpg",
-			"img/beam8.jpg",
-			"img/beam9.jpg",
-			"img/beam10.jpg",
-			"img/beam11.jpg",
-			"img/beam12.jpg",
-			"img/beam13.jpg",
-			"img/beam14.jpg",
-			"img/beam15.jpg",
-			"img/beam16.jpg"
+			"dist/img/beam1.jpg",
+			"dist/img/beam2.jpg",
+			"dist/img/beam3.jpg",
+			"dist/img/beam4.jpg",
+			"dist/img/beam5.jpg",
+			"dist/img/beam6.jpg",
+			"dist/img/beam7.jpg",
+			"dist/img/beam8.jpg",
+			"dist/img/beam9.jpg",
+			"dist/img/beam10.jpg",
+			"dist/img/beam11.jpg",
+			"dist/img/beam12.jpg",
+			"dist/img/beam13.jpg",
+			"dist/img/beam14.jpg",
+			"dist/img/beam15.jpg",
+			"dist/img/beam16.jpg"
 		]
 	},
 	{
 		"name": "CaptainMorgan",
 		"description": "...",
-		"thumb": "img/captain6.jpg",
+		"thumb": "dist/img/captain6.jpg",
 		"imageUrl":[
-			"img/captain1.jpg",
-			"img/captain2.jpg",
-			"img/captain3.jpg",
-			"img/captain4.jpg",
-			"img/captain5.jpg",
-			"img/captain6.jpg"
+			"dist/img/captain1.jpg",
+			"dist/img/captain2.jpg",
+			"dist/img/captain3.jpg",
+			"dist/img/captain4.jpg",
+			"dist/img/captain5.jpg",
+			"dist/img/captain6.jpg"
 		]
 	},
 	{
 		"name": "Fireball",
 		"description": "...",
-		"thumb": "img/fireball2.jpg",
+		"thumb": "dist/img/fireball2.jpg",
 		"imageUrl":[
-			"img/fireball1.jpg",
-			"img/fireball2.jpg"
+			"dist/img/fireball1.jpg",
+			"dist/img/fireball2.jpg"
 		]
 	},
 	{
 		"name": "Nursery",
 		"description": "...",
-		"thumb": "img/nursery4.jpg",
+		"thumb": "dist/img/nursery4.jpg",
 		"imageUrl":[
-			"img/nursery1.jpg",
-			"img/nursery2.jpg",
-			"img/nursery3.jpg",
-			"img/nursery4.jpg"
+			"dist/img/nursery1.jpg",
+			"dist/img/nursery2.jpg",
+			"dist/img/nursery3.jpg",
+			"dist/img/nursery4.jpg"
 		]
 	}
 ]

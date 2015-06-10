@@ -5,21 +5,21 @@ var test = angular.module('test-directives',[]);
 	test.directive('testGallery', function (){
 		return {
 			restrict: 'A',
-			templateUrl: 'test-gallery.html'
+			templateUrl: 'dist/test-gallery.html'
 		};
 	});
 	
 	test.directive('testElement', function (){
 		return {
 			restrict: 'A',
-			templateUrl: 'test-element.html'
+			templateUrl: 'dist/test-element.html'
 		};
 	});
 	
 	test.directive('testTabs', function (){
 		return {
 			restrict: 'A',
-			templateUrl: 'test-tabs.html',
+			templateUrl: 'dist/test-tabs.html',
 			controller: function(){
 				this.tab = 0;
 		
