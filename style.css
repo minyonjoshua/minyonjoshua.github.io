@@ -1,0 +1,64 @@
+@font-face	{ /* Load the new "Tidy" font */
+			font-family: Tidy;
+			src: url(Comfortaa_Regular.ttf);
+			}
+			
+body 		{ /* Loads the bodies style */
+			font-family: Tidy;
+			background-color: white;
+			color: black;
+			}
+			
+#header		{
+			font-size: 5em;
+			position: center;
+			margin: 0px 100px;
+			text-align: center;
+			}
+#header a:hover { text-decoration: none; }
+			
+div			{
+			padding: 5px;
+			font-size: 1.1em;
+			text-align: center;
+			}
+			
+div a { text-decoration: none; }
+div a:link { color: black; }
+div a:visited { color: black; }
+div a:hover { text-decoration: underline; }			
+			
+input			{
+			text-align: center;
+			font-family: Tidy;
+			color: gray;
+			}
+			
+p      		{
+			position: left;
+			display: inline;
+			margin: 0px;
+			text-align: left;
+			}
+			
+div.imgcontainer{
+	margin: auto;
+	position: center;
+	max-width: 80%;
+	text-align: center;
+}
+
+div.imgcontainer img{
+	float: center;
+	height: auto;
+	width: auto;
+	max-width: 50%;
+	max-height: 14em;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+nav			{
+			word-spacing: 25px;
+			}
