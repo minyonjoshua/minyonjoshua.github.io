@@ -12,7 +12,7 @@
 <div class="" ng-repeat="item in gallery.items" ng-show = "panel.isSelected($index+1)">
 
 	<div  class="imgcontainer thumbnail{{$index+1}}">
-			<a href ng-click=""><img class="" ng-repeat="image in item.imageUrl" ng-src="{{image}}"/></a>
+			<a ng-repeat="image in item.imageUrl" ng-href="{{image}}" target="_blank"><img class="" ng-src="{{image}}"/></a>
 	</div>
 
 </div>
